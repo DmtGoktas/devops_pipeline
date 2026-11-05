@@ -1,0 +1,13 @@
+{
+  "name": "devops_pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npm --prefix backend test",
+    "lint": "npm --prefix backend run lint",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
